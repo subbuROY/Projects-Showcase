@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.projects-container {
+  min-height: 100vh;
+  background-color: #e6e9ec;
+  display: flex;
+  flex-direction: column;
+}
+.nav-container {
+  background-color: #cbd5e1;
+  width: 100%;
+}
+.website-logo {
+  height: 90px;
+  padding: 9px;
+}
+.select {
+  width: 300px;
+  margin: 22px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.options {
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding: 5px;
+}
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-items {
+  list-style: none;
+  margin: 10px;
+  background-color: #ffff;
+  box-shadow: 10px 10px 10px 10px #ffff;
+}
+.name {
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 10px;
+}
+.image {
+  height: 140px;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+}
+.fail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.fail-img {
+  height: 275px;
+  width: 275px;
+}
+.heading {
+  color: #475569;
+  font-size: 42px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+.para {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.button {
+  background-color: #328af2;
+  color: #ffffff;
+  padding: 7px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
